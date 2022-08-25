@@ -1,0 +1,245 @@
+{
+  "feature": [
+    {
+      "title": "new",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 BMX",
+          "time": "5:12",
+          "genre": ["Heats", "Highlights"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "85m javaline throw",
+          "time": "5:12",
+          "genre": ["Heats", "Stamina"]
+        }
+      ]
+    }
+  ],
+  "armoury": [
+    {
+      "title": "shooting",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Improving aim",
+          "time": "6:23",
+          "genre": ["sharp", "goal"]
+        }
+      ]
+    }
+  ],
+  "cycling": [
+    {
+      "title": "BMX",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 BMX",
+          "time": "5:12",
+          "genre": ["Heats", "Highlights"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 BMX",
+          "time": "5:12",
+          "genre": ["Heats", "Mixed"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 BMX",
+          "time": "5:12",
+          "genre": ["Semi's", "Mixed"]
+        }
+      ]
+    },
+    {
+      "title": "Mountain",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "ride cycle up hill",
+          "time": "6:23",
+          "genre": ["height", "slow"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "ride cycle down hill",
+          "time": "6:23",
+          "genre": ["speed", "enjoy"]
+        }
+      ]
+    },
+    {
+      "title": "Road",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "20km ride",
+          "time": "6:23",
+          "genre": ["marathon", "slow"]
+        }
+      ]
+    },
+    {
+      "title": "Track",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 - 2 lap",
+          "time": "6:23",
+          "genre": ["marathon", "slow"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 2 - 3 lap",
+          "time": "6:23",
+          "genre": ["speed", "enjoy"]
+        }
+      ]
+    }
+  ],
+  "equestrian": [
+    {
+      "title": "Show-jumping",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Horse training",
+          "time": "6:23",
+          "genre": ["planning", "train"]
+        }
+      ]
+    },
+    {
+      "title": "dressage",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Horse training",
+          "time": "6:23",
+          "genre": ["planning", "train"]
+        }
+      ]
+    }
+  ],
+  "golf": [
+    {
+      "title": "golf",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Improving aim",
+          "time": "6:23",
+          "genre": ["improve", "long"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "long shot",
+          "time": "6:23",
+          "genre": ["training", "long"]
+        }
+      ]
+    }
+  ],
+  "gymnast": [
+    {
+      "title": "rhythmic",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 Improving",
+          "time": "6:23",
+          "genre": ["women", "gymnast"]
+        }
+      ]
+    },
+    {
+      "title": "rhythmic",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "jumping high",
+          "time": "6:23",
+          "genre": ["jump", "high"]
+        }
+      ]
+    }
+  ],
+  "extreme": [
+    {
+      "title": "snowboarding",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 Improving",
+          "time": "6:23",
+          "genre": ["cold", "improve"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 speeding",
+          "time": "6:23",
+          "genre": ["speed", "cold"]
+        }
+      ]
+    },
+    {
+      "title": "mountain-biking",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "drive 5km up",
+          "time": "6:23",
+          "genre": ["biking", "riding"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "drive 10km up",
+          "time": "6:23",
+          "genre": ["drive", "biking"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "drive 10km up",
+          "time": "6:23",
+          "genre": ["climb", "biking"]
+        }
+      ]
+    }
+  ],
+  "lake": [
+    {
+      "title": "hydrofoil",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 Improving",
+          "time": "6:23",
+          "genre": ["cold", "improve"]
+        },
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Day 1 Improving",
+          "time": "6:23",
+          "genre": ["cold", "improve"]
+        }
+      ]
+    }
+  ],
+  "aquatic": [
+    {
+      "title": "swiming",
+      "data": [
+        {
+          "url": "https://via.placeholder.com/365x500.png",
+          "title": "Stamina boosting",
+          "time": "6:23",
+          "genre": ["stamina", "hard"]
+        }
+      ]
+    }
+  ]
+}

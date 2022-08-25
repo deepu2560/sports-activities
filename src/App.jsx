@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Topheader } from "./Components/pages/header/headers";
-import { HighlightSection } from "./Components/pages/highlights/highlight";
+import { Topheader } from "./Assets/components/header/headers";
+import { Allroutes } from "./Assets/router";
 
 function App() {
   return (
     <div className="App">
       <Topheader />
-      <HighlightSection />
+      <Allroutes />
     </div>
   );
 }

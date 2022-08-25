@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./headers.css";
 
 export const Topheader = () => {
-  const [focused, setFocused] = useState("none");
+  const [focused, setFocused] = useState("cycling");
 
   useEffect(() => {
     if (focused != "none") {
