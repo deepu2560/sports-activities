@@ -1,5 +1,5 @@
 .header-main {
-  background-color: #495057;
+  background-color: #212529;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,19 +7,26 @@
 }
 
 .header-main > div {
-  background-color: #6c757d;
+  background-color: #343a40;
   cursor: pointer;
-  width: 7%;
+  width: 8%;
+  height: 100px;
   padding: 15px;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-main > div:hover {
   background-color: #adb5bd;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header-main > div > div {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .header-main > div > h4 {

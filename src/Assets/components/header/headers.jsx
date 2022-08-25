@@ -16,11 +16,14 @@ export const Topheader = () => {
         "extreme",
         "golf",
         "gymnastics",
-      ].forEach(
-        (elem) =>
-          (document.getElementById(elem).style.backgroundColor = "#6c757d"),
-      );
+      ].forEach((elem) => {
+        document.getElementById(elem).style.backgroundColor = "#343a40";
+        document.getElementById(elem).style.boxShadow =
+          "rgba(0, 0, 0, 0.16) 0px 1px 4px";
+      });
       document.getElementById(focused).style.backgroundColor = "#adb5bd";
+      document.getElementById(focused).style.boxShadow =
+        "rgba(0, 0, 0, 0.35) 0px 5px 15px";
     }
   }, [focused]);
   return (
@@ -71,7 +74,7 @@ export const Topheader = () => {
         <div id="gymnastics">
           <img
             src="https://www.svgrepo.com/show/172691/gymnast.svg"
-            width="50px"
+            width="30px"
           />
         </div>
         <h4>Gymnastics</h4>
