@@ -6,6 +6,7 @@ import {
   dataSuccess,
 } from "../redux/dataRedux/dataAction";
 import axios from "axios";
+import { HighlightSection } from "../components/highlights/highlight";
 import "./pages.css";
 
 export const FeaturePage = () => {
@@ -41,6 +42,7 @@ export const FeaturePage = () => {
           New
         </p>
       </div>
+      <HighlightSection />
     </div>
   );
 };

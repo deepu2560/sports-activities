@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./headers.css";
 
 export const Topheader = () => {
-  const [focused, setFocused] = useState("cycling");
+  const [focused, setFocused] = useState("feature");
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export const Topheader = () => {
         "cycling",
         "equestrian",
         "extreme",
-        "golf",
+        "golfHeader",
         "gymnastics",
       ].forEach((elem) => {
         document.getElementById(elem).style.backgroundColor = "#343a40";
@@ -104,17 +104,23 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "golf");
+          setFocused(() => "golfHeader");
           navigate("/golf");
         }}
-        id="golf"
+        id="golfHeader"
       >
-        <div className="golf">
+        <div className="golf-div">
           <i className="fa-solid fa-golf-ball-tee"></i>
         </div>
         <h4>Golf</h4>
       </div>
-      <div onClick={() => setFocused(() => "gymnastics")} id="gymnastics">
+      <div
+        onClick={() => {
+          setFocused(() => "gymnastics");
+          navigate("/gymnast");
+        }}
+        id="gymnastics"
+      >
         <div id="gymnastics">
           <img
             src="https://www.svgrepo.com/show/172691/gymnast.svg"
@@ -123,7 +129,13 @@ export const Topheader = () => {
         </div>
         <h4>Gymnastics</h4>
       </div>
-      <div onClick={() => setFocused(() => "lake-sea")} id="lake-sea">
+      <div
+        onClick={() => {
+          setFocused(() => "lake-sea");
+          navigate("/lake");
+        }}
+        id="lake-sea"
+      >
         <div className="lake-seas">
           <i className="fa-solid fa-sailboat"></i>
         </div>

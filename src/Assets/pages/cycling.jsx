@@ -6,6 +6,7 @@ import {
   dataSuccess,
 } from "../redux/dataRedux/dataAction";
 import axios from "axios";
+import { HighlightSection } from "../components/highlights/highlight";
 import "./pages.css";
 
 export const CyclingPage = () => {
@@ -54,6 +55,7 @@ export const CyclingPage = () => {
           Track
         </p>
       </div>
+      <HighlightSection />
     </div>
   );
 };

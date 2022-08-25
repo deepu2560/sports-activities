@@ -6,6 +6,7 @@ import {
   dataSuccess,
 } from "../redux/dataRedux/dataAction";
 import axios from "axios";
+import { HighlightSection } from "../components/highlights/highlight";
 import "./pages.css";
 
 export const AquaticPage = () => {
@@ -41,6 +42,7 @@ export const AquaticPage = () => {
           Swiming
         </p>
       </div>
+      <HighlightSection />
     </div>
   );
 };

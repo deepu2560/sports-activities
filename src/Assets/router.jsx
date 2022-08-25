@@ -6,6 +6,8 @@ import { FeaturePage } from "./pages/feature";
 import { EquestrianePage } from "./pages/equestrian";
 import { ExtremePage } from "./pages/extreme";
 import { GolfPage } from "./pages/golf";
+import { GymnastPage } from "./pages/gymnastics";
+import { LakeSeaPage } from "./pages/lakeSea";
 
 export const Allroutes = () => {
   return (
@@ -17,6 +19,8 @@ export const Allroutes = () => {
       <Route path="/equestrian" element={<EquestrianePage />} />
       <Route path="/extreme" element={<ExtremePage />} />
       <Route path="/golf" element={<GolfPage />} />
+      <Route path="/gymnast" element={<GymnastPage />} />
+      <Route path="/lake" element={<LakeSeaPage />} />
     </Routes>
   );
 };
