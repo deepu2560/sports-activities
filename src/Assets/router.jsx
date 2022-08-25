@@ -18,7 +18,7 @@ export const Allroutes = () => {
       <Route path="/cycle" element={<CyclingPage />} />
       <Route path="/equestrian" element={<EquestrianePage />} />
       <Route path="/extreme" element={<ExtremePage />} />
-      <Route path="/golf" element={<GolfPage />} />
+      <Route path="/golf-sport" element={<GolfPage />} />
       <Route path="/gymnast" element={<GymnastPage />} />
       <Route path="/lake" element={<LakeSeaPage />} />
     </Routes>

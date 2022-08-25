@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import {
-  dataError,
-  dataLoading,
-  dataSuccess,
-} from "../redux/dataRedux/dataAction";
-import axios from "axios";
+import { fetchSportData } from "../redux/dataRedux/dataAction";
 import { HighlightSection } from "../components/highlights/highlight";
 import "./pages.css";
 
@@ -20,19 +15,7 @@ export const GymnastPage = () => {
   }, [display]);
 
   function fetchData() {
-    dispatch(dataLoading());
-    axios
-      .get(`https://sport-deepu2560.herokuapp.com/gymnast?title=${display}`)
-      .then((res) => {
-        const { data } = res.data[0];
-        setTimeout(() => {
-          dispatch(dataSuccess(data));
-        }, 500);
-      })
-      .catch((err) => {
-        dispatch(dataError());
-        console.log(err);
-      });
+    dispatch(fetchSportData(dispatch, "gymnast", display));
   }
 
   return (

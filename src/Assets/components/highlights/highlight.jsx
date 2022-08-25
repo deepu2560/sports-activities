@@ -5,8 +5,6 @@ import "./highlight.css";
 
 export const HighlightSection = () => {
   let { data, isLoading, isData } = useSelector((state) => state);
-  console.log(data, isLoading, isData);
-
   return (
     <div className="highlight-main">
       <h2>Highlight</h2>

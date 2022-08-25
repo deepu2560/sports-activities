@@ -6,18 +6,30 @@ export const Topheader = () => {
   const [focused, setFocused] = useState("feature");
   const navigate = useNavigate();
 
+  const url = window.location.pathname;
+
+  useEffect(() => {
+    const pathURL = url.split("/");
+
+    if (pathURL[pathURL.length - 1] != 0) {
+      setFocused(() => pathURL[pathURL.length - 1]);
+    } else {
+      setFocused(() => "feature");
+    }
+  }, [url]);
+
   useEffect(() => {
     if (focused != "none") {
       [
         "feature",
         "armoury",
-        "lake-sea",
-        "aquatics",
-        "cycling",
+        "lake",
+        "aquatic",
+        "cycle",
         "equestrian",
         "extreme",
-        "golfHeader",
-        "gymnastics",
+        "golf-sport",
+        "gymnast",
       ].forEach((elem) => {
         document.getElementById(elem).style.backgroundColor = "#343a40";
         document.getElementById(elem).style.boxShadow =
@@ -56,10 +68,10 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "aquatics");
+          setFocused(() => "aquatic");
           navigate("/aquatic");
         }}
-        id="aquatics"
+        id="aquatic"
       >
         <div className="aquatics">
           <i className="fa-solid fa-person-swimming"></i>
@@ -68,10 +80,10 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "cycling");
+          setFocused(() => "cycle");
           navigate("/cycle");
         }}
-        id="cycling"
+        id="cycle"
       >
         <div className="cycling">
           <i className="fa-solid fa-person-biking"></i>
@@ -104,10 +116,10 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "golfHeader");
-          navigate("/golf");
+          setFocused(() => "golf-sport");
+          navigate("/golf-sport");
         }}
-        id="golfHeader"
+        id="golf-sport"
       >
         <div className="golf-div">
           <i className="fa-solid fa-golf-ball-tee"></i>
@@ -116,12 +128,12 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "gymnastics");
+          setFocused(() => "gymnast");
           navigate("/gymnast");
         }}
-        id="gymnastics"
+        id="gymnast"
       >
-        <div id="gymnastics">
+        <div className="gymnastics">
           <img
             src="https://www.svgrepo.com/show/172691/gymnast.svg"
             width="30px"
@@ -131,10 +143,10 @@ export const Topheader = () => {
       </div>
       <div
         onClick={() => {
-          setFocused(() => "lake-sea");
+          setFocused(() => "lake");
           navigate("/lake");
         }}
-        id="lake-sea"
+        id="lake"
       >
         <div className="lake-seas">
           <i className="fa-solid fa-sailboat"></i>

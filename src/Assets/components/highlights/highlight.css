@@ -2,6 +2,7 @@
   color: #c9c7c7;
   text-align: left;
   padding-left: 20px;
+  border-top: 10px solid #adb5bd;
 }
 
 .highlight-main > h2 {
