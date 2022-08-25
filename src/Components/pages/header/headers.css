@@ -1,0 +1,28 @@
+.header-main {
+  background-color: #495057;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+}
+
+.icons-div {
+  background-color: #6c757d;
+  cursor: pointer;
+  width: 7%;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.icons-div:hover {
+  background-color: #adb5bd;
+}
+
+.icons-div > div {
+  font-size: 50px;
+}
+
+.icons-div > h4 {
+  margin-top: 10px;
+  margin: 0;
+}

@@ -1,12 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import React from "react";
 import "./App.css";
+import { Topheader } from "./Components/pages/header/headers";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
+      <Topheader />
       <h1>Hello world</h1>
     </div>
   );
