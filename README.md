@@ -19,6 +19,8 @@
 * Clone this repository locally than to following for starting local server for backend or frontend.
 
 * <kbd>npm start</kbd> ==> After clone you on main folder you will see db.json that content all backend data. For this project I used json-server for making backend development.
+
+*<kbd>json-server --watch db.json --port 8080 </kbd> You can also use this command in terminal to run json-server. Note: node start also starts same server.
   
  * <kbd>npm run dev</kbd> ==> On main folder you will see a folder you will see all frontend files to run react server pass command npm run dev in terminal. Or you can visit deployed link for this project.
 <hr/>
