@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./headers.css";
 
 export const Topheader = () => {
   const [focused, setFocused] = useState("cycling");
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (focused != "none") {
@@ -28,43 +30,85 @@ export const Topheader = () => {
   }, [focused]);
   return (
     <div className="header-main">
-      <div onClick={() => setFocused(() => "feature")} id="feature">
+      <div
+        onClick={() => {
+          setFocused(() => "feature");
+          navigate("/");
+        }}
+        id="feature"
+      >
         <div className="features">
           <i className="fa-solid fa-star"></i>
         </div>
         <h4>Featured</h4>
       </div>
-      <div onClick={() => setFocused(() => "armoury")} id="armoury">
+      <div
+        onClick={() => {
+          setFocused(() => "armoury");
+          navigate("/armoury");
+        }}
+        id="armoury"
+      >
         <div className="armoury">
           <i className="fa-solid fa-bullseye"></i>
         </div>
         <h4>Armoury</h4>
       </div>
-      <div onClick={() => setFocused(() => "aquatics")} id="aquatics">
+      <div
+        onClick={() => {
+          setFocused(() => "aquatics");
+          navigate("/aquatic");
+        }}
+        id="aquatics"
+      >
         <div className="aquatics">
           <i className="fa-solid fa-person-swimming"></i>
         </div>
         <h4>Aquatics</h4>
       </div>
-      <div onClick={() => setFocused(() => "cycling")} id="cycling">
+      <div
+        onClick={() => {
+          setFocused(() => "cycling");
+          navigate("/cycle");
+        }}
+        id="cycling"
+      >
         <div className="cycling">
           <i className="fa-solid fa-person-biking"></i>
         </div>
         <h4>Cycling</h4>
       </div>
-      <div onClick={() => setFocused(() => "equestrian")} id="equestrian">
+      <div
+        onClick={() => {
+          setFocused(() => "equestrian");
+          navigate("/equestrian");
+        }}
+        id="equestrian"
+      >
         <div className="equestrian">
           <i className="fa-solid fa-horse"></i>
         </div>
         <h4>Equestrian</h4>
       </div>
-      <div onClick={() => setFocused(() => "extreme")} id="extreme">
+      <div
+        onClick={() => {
+          setFocused(() => "extreme");
+          navigate("/extreme");
+        }}
+        id="extreme"
+      >
         <div className="extreme">
           <i className="fa-solid fa-person-snowboarding"></i>
         </div>
         <h4>Extreme</h4>
       </div>
-      <div onClick={() => setFocused(() => "golf")} id="golf">
+      <div
+        onClick={() => {
+          setFocused(() => "golf");
+          navigate("/golf");
+        }}
+        id="golf"
+      >
         <div className="golf">
           <i className="fa-solid fa-golf-ball-tee"></i>
         </div>

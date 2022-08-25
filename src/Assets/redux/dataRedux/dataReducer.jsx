@@ -7,28 +7,28 @@ const initialStore = {
   isFailure: false,
 };
 
-export const DataReducer = (state = initialStore, type, payload) => {
+export const DataReducer = (state = initialStore, { type, payload }) => {
   switch (type) {
     case DATA_LOADING:
       return {
-        isLoading: true,
         ...state,
+        isLoading: true,
       };
     case DATA_SUCCESS:
       return {
+        ...state,
         isLoading: false,
         isData: true,
         data: payload,
         isFailure: false,
-        ...state,
       };
     case DATA_ERROR:
       return {
+        ...state,
         isLoading: false,
         isData: false,
         data: [],
         isFailure: true,
-        ...state,
       };
     default:
       return state;

@@ -4,7 +4,7 @@
   margin-top: 5px;
 }
 
-.page-main > div {
+.heading-div {
   width: 70%;
   margin: auto;
   display: flex;
@@ -12,6 +12,6 @@
   justify-content: space-evenly;
 }
 
-.page-main > div > p {
+.heading-div > p {
   cursor: pointer;
 }
