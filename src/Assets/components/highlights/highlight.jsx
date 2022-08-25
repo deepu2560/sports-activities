@@ -7,7 +7,7 @@ export const HighlightSection = () => {
   let { data, isLoading, isData } = useSelector((state) => state);
   return (
     <div className="highlight-main">
-      <h2>Highlight</h2>
+      <h2 className="animate__animated animate__flipInX">Highlight</h2>
       {isLoading || !isData ? (
         <div className="highlight-loading">
           {" "}

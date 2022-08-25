@@ -43,6 +43,7 @@ export const Topheader = () => {
   return (
     <div className="header-main">
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "feature");
           navigate("/");
@@ -55,6 +56,7 @@ export const Topheader = () => {
         <h4>Featured</h4>
       </div>
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "armoury");
           navigate("/armoury");
@@ -67,6 +69,7 @@ export const Topheader = () => {
         <h4>Armoury</h4>
       </div>
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "aquatic");
           navigate("/aquatic");
@@ -79,6 +82,7 @@ export const Topheader = () => {
         <h4>Aquatics</h4>
       </div>
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "cycle");
           navigate("/cycle");
@@ -91,6 +95,7 @@ export const Topheader = () => {
         <h4>Cycling</h4>
       </div>
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "equestrian");
           navigate("/equestrian");
@@ -107,6 +112,7 @@ export const Topheader = () => {
           setFocused(() => "extreme");
           navigate("/extreme");
         }}
+        className="animate__animated animate__fadeInDown"
         id="extreme"
       >
         <div className="extreme">
@@ -119,6 +125,7 @@ export const Topheader = () => {
           setFocused(() => "golf-sport");
           navigate("/golf-sport");
         }}
+        className="animate__animated animate__fadeInDown"
         id="golf-sport"
       >
         <div className="golf-div">
@@ -131,6 +138,7 @@ export const Topheader = () => {
           setFocused(() => "gymnast");
           navigate("/gymnast");
         }}
+        className="animate__animated animate__fadeInDown"
         id="gymnast"
       >
         <div className="gymnastics">
@@ -142,6 +150,7 @@ export const Topheader = () => {
         <h4>Gymnastics</h4>
       </div>
       <div
+        className="animate__animated animate__fadeInDown"
         onClick={() => {
           setFocused(() => "lake");
           navigate("/lake");

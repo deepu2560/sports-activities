@@ -4,7 +4,7 @@ import "./card.css";
 class Cards extends React.Component {
   render() {
     return (
-      <div className="card-main-div">
+      <div className="card-main-div animate__animated animate__fadeInUp">
         <img src={this.props.data.url} />
         <div className="card-details">
           <div>
