@@ -4,7 +4,7 @@
 # About the Website
 
 
-### This solo frontend assignment made for TericSoft. In this react web application shows sports activities. Header contains sports categories, on click of any one shows that sports related activities.
+### This solo frontend assignment. In this react web application shows sports activities. Header contains sports categories, on click of any one shows that sports related activities.
 <hr/>
 
 ## Important points
